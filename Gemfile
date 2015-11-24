@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 # =======================
-# CONFIG 
+# CONFIG
 # =======================
 
 # Local ENV variables for testing & development
@@ -13,7 +13,7 @@ gem 'dotenv-rails', :groups => [:development, :test]
 # =======================
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
